@@ -1,0 +1,20 @@
+﻿<Window x:Class="WJD_AFC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WJD_AFC"
+        mc:Ignorable="d"
+        Title="威骏达_自动化关务系统" Height="800" Width="1280" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="249*"/>
+            <ColumnDefinition Width="1024*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button_1" Content="单一窗口" HorizontalAlignment="Left" Margin="30,25,0,0" VerticalAlignment="Top" Width="160" Height="61" FontSize="30" FontFamily="Microsoft YaHei" FontWeight="Bold" Click="button_1_Click"/>
+        <Button x:Name="button_2" Content="入园系统" HorizontalAlignment="Left" Margin="227,25,0,0" VerticalAlignment="Top" Width="160" Height="61" FontSize="30" FontFamily="Microsoft YaHei" FontWeight="Bold" Grid.ColumnSpan="2" Click="button_2_Click"/>
+        <Button x:Name="button_3" Content="WMS系统" HorizontalAlignment="Left" Margin="172,25,0,0" VerticalAlignment="Top" Width="160" Height="61" FontSize="30" FontFamily="Microsoft YaHei" FontWeight="Bold" Grid.Column="1"/>
+        <Button x:Name="button_4" Content="系统说明" HorizontalAlignment="Left" Margin="371,25,0,0" VerticalAlignment="Top" Width="160" Height="61" FontSize="30" FontFamily="Microsoft YaHei" FontWeight="Bold" Grid.Column="1"/>
+        <ContentControl x:Name="control_" Content="" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="652" Width="1252"/>
+    </Grid>
+</Window>
